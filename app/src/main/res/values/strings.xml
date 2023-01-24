@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ITProger App All</string>
+    <string name="app_name">ItprogerApp</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="press_me">Press me</string>
 </resources>
