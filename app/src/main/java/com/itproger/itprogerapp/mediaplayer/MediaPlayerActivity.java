@@ -1,4 +1,4 @@
-package com.example.itprogerappall;
+package com.itproger.itprogerapp.mediaplayer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
+import com.itproger.itprogerapp.R;
+
+public class MediaPlayerActivity extends AppCompatActivity {
 
     private ImageButton carImage, policeImage;
     private MediaPlayer carSound, policeSound;
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_media_player);
 
         carImage = findViewById(R.id.car_image);
         policeImage = findViewById(R.id.police_image);

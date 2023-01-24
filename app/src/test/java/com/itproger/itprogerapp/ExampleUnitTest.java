@@ -1,4 +1,4 @@
-package com.example.itprogerappall;
+package com.itproger.itprogerapp;
 
 import org.junit.Test;
 

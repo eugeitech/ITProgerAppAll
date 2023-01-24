@@ -4,35 +4,5 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <ImageButton
-        android:id="@+id/car_image"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="50dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/app_name"
-        android:scaleType="fitStart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/red_car" />
-
-    <ImageButton
-        android:id="@+id/police_image"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/app_name"
-        android:scaleType="fitEnd"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/police_car" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:background="@color/silver"
+    tools:context=".MainActivity"></androidx.constraintlayout.widget.ConstraintLayout>
