@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 
 import com.itproger.itprogerapp.R;
 
-public class FragmentsActivity extends AppCompatActivity {
+public class MainFragmentsActivity extends AppCompatActivity {
 
     private Button buttonFragment1, buttonFragment2;
     private FrameLayout frameLayout;
@@ -21,7 +21,7 @@ public class FragmentsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragments);
+        setContentView(R.layout.activity_main_fragments);
 
         buttonFragment1 = findViewById(R.id.button_fragment_1);
         buttonFragment2 = findViewById(R.id.button_fragment_2);

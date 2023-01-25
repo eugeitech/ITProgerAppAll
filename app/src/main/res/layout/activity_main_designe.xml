@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver_100"
+    tools:context=".design.MainDesignActivity">
+
+    <RelativeLayout
+        android:id="@+id/upper_background"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/bright_blue_100">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/hi_admin"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/your_personal_account"
+            android:textColor="@color/silver_100"
+            android:textSize="14sp"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="40dp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/main_box"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/upper_background"
+        android:background="@color/white"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="-80dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/personal_account"
+            android:backgroundTint="@color/bright_blue_300"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gift"
+        android:layout_below="@+id/main_box"
+        android:layout_marginHorizontal="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bright_blue_200"
+        >
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/main"
+            android:backgroundTint="@color/bright_blue_300">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contacts"
+            android:backgroundTint="@color/bright_blue_300">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/blog"
+            android:backgroundTint="@color/bright_blue_300">
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
