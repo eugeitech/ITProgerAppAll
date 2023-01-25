@@ -7,6 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="silver">#CACACA</color>
+    <color name="silver_200">#CACACA</color>
     <color name="read_material_700">#D32F2F</color>
+    <color name="bright_blue_300">#00A5DD</color>
+    <color name="silver_100">#F1F1F1</color>
+    <color name="bright_blue_100">#46BEE6</color>
+    <color name="bright_blue_200">#46BEE6</color>
 </resources>
