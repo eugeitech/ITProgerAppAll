@@ -10,4 +10,8 @@
     <string name="main">Main</string>
     <string name="contacts">Contacts</string>
     <string name="blog">Blog</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_bio">Enter bio</string>
+    <string name="save">Save</string>
+    <string name="download">Download</string>
 </resources>
