@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ItprogerApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainDesigneActivity"
+            android:name=".design.MainDesignActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
