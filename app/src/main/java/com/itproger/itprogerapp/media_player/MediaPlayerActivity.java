@@ -1,4 +1,4 @@
-package com.itproger.itprogerapp.mediaplayer;
+package com.itproger.itprogerapp.media_player;
 
 import androidx.appcompat.app.AppCompatActivity;
 
