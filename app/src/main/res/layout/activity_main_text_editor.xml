@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/silver_100"
-    tools:context=".textEditor.MainTextEditorActivity" >
+    tools:context=".text_editor.MainTextEditorActivity" >
 
     <RelativeLayout
         android:id="@+id/upper_background"
@@ -108,16 +108,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:text="@string/main"
-            android:backgroundTint="@color/bright_blue_300">
-        </Button>
+            android:backgroundTint="@color/bright_blue_300"
+            android:text="@string/main" />
 
         <Button
+            android:id="@+id/contacts_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/contacts"
-            android:backgroundTint="@color/bright_blue_300">
-        </Button>
+            android:backgroundTint="@color/bright_blue_300"
+            android:onClick="goContacts"
+            android:text="@string/contacts" />
 
         <Button
             android:layout_width="wrap_content"

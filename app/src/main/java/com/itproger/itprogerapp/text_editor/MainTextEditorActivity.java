@@ -1,22 +1,21 @@
-package com.itproger.itprogerapp.textEditor;
+package com.itproger.itprogerapp.text_editor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.itproger.itprogerapp.ContactsActivity;
 import com.itproger.itprogerapp.R;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 
 public class MainTextEditorActivity extends AppCompatActivity {
 
@@ -66,5 +65,10 @@ public class MainTextEditorActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void goContacts(View view) {
+        Intent intent = new Intent(this, ContactsActivity.class);
+        startActivity(intent);
     }
 }
