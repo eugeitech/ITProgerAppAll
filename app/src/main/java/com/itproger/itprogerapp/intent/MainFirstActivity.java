@@ -1,4 +1,4 @@
-package com.itproger.itprogerapp;
+package com.itproger.itprogerapp.intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,14 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.itproger.itprogerapp.intent.SecondActivity;
+import com.itproger.itprogerapp.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainFirstActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_first);
     }
 
     public void startNewActivity(View view) {

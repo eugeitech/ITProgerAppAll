@@ -1,4 +1,4 @@
-package com.itproger.itprogerapp.account_app;
+package com.itproger.itprogerapp.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,7 +16,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainAccountAppActivity extends AppCompatActivity {
+public class MainAccountActivity extends AppCompatActivity {
 
     private EditText userNameField, userBioField;
 
@@ -67,7 +67,7 @@ public class MainAccountAppActivity extends AppCompatActivity {
     }
 
     public void goContacts(View view) {
-        Intent intent = new Intent(this, ContactsActivity.class);
+        Intent intent = new Intent(this, MainContactsActivity.class);
         startActivity(intent);
     }
 }
