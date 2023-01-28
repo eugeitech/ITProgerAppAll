@@ -1,4 +1,4 @@
-package com.itproger.itprogerapp.app;
+package com.itproger.itprogerapp.account_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,14 +16,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainAccountActivity extends AppCompatActivity {
+public class MainAccountAppActivity extends AppCompatActivity {
 
     private EditText userNameField, userBioField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_account);
+        setContentView(R.layout.activity_main_account_app);
 
         userNameField = findViewById(R.id.user_name_field);
         userBioField = findViewById(R.id.user_bio_field);

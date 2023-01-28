@@ -19,4 +19,8 @@
     <string name="hint_1">Enter first number</string>
     <string name="hint_2">Enter second number</string>
     <string name="add_numbers">Add numbers</string>
+    <string name="logo">Logo</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
 </resources>

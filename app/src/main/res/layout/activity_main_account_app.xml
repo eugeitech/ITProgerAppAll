@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/silver_100"
-    tools:context=".app.MainAccountActivity" >
+    tools:context=".account_app.MainAccountAppActivity" >
 
     <RelativeLayout
         android:id="@+id/upper_background"
