@@ -1,4 +1,4 @@
-package com.itproger.itprogerapp.text_editor;
+package com.itproger.itprogerapp.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.itproger.itprogerapp.ContactsActivity;
 import com.itproger.itprogerapp.R;
 
 import java.io.BufferedReader;
@@ -17,14 +16,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainTextEditorActivity extends AppCompatActivity {
+public class MainAccountActivity extends AppCompatActivity {
 
     private EditText userNameField, userBioField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_text_editor);
+        setContentView(R.layout.activity_main_account);
 
         userNameField = findViewById(R.id.user_name_field);
         userBioField = findViewById(R.id.user_bio_field);
