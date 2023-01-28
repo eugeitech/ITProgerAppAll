@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/silver_200"
-    tools:context=".media_player.MediaPlayerActivity">
+    tools:context=".media_player.MainMediaPlayerActivity">
 
     <ImageButton
         android:id="@+id/car_image"
