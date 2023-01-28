@@ -13,6 +13,13 @@
         android:theme="@style/Theme.ItprogerApp"
         tools:targetApi="31">
         <activity
+            android:name=".popup_messages.PopupMessagesActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".calculator.CalculatorActivity"
             android:exported="true">
             <intent-filter>
@@ -26,7 +33,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".app.ContactsActivity"
+            android:name=".account_app.ContactsActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -46,7 +53,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".app.MainAccountActivity"
+            android:name=".account_app.MainAccountAppActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

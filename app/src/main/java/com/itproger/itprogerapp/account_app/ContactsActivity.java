@@ -1,4 +1,4 @@
-package com.itproger.itprogerapp.app;
+package com.itproger.itprogerapp.account_app;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -75,7 +75,7 @@ public class ContactsActivity
     }
 
     public void goHome(View view) {
-        Intent intent = new Intent(this, MainAccountActivity.class);
+        Intent intent = new Intent(this, MainAccountAppActivity.class);
         startActivity(intent);
     }
 
