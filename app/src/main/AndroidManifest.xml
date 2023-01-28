@@ -13,6 +13,20 @@
         android:theme="@style/Theme.ItprogerApp"
         tools:targetApi="31">
         <activity
+            android:name=".image.MainImageActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".image.ImageSecondActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".intent.SecondActivity"
             android:exported="false">
             <meta-data
