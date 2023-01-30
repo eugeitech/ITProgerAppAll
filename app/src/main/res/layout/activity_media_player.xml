@@ -6,9 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/silver_200"
-    tools:context=".media_player.MediaPlayerActivity"
-    >
-
+    tools:context=".media_player.MediaPlayerActivity">
     <ImageButton
         android:id="@+id/car_image"
         android:layout_width="0dp"
@@ -22,8 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/red_car"
-        />
+        app:srcCompat="@drawable/red_car" />
 
     <ImageButton
         android:id="@+id/police_image"
@@ -38,6 +35,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/police_car"
-        />
+        app:srcCompat="@drawable/police_car" />
 </androidx.constraintlayout.widget.ConstraintLayout>

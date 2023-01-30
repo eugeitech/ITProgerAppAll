@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/silver_200"
-    tools:context=".fragments.FragmentsActivity"
-    >
+    tools:context=".fragments.FragmentsActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
@@ -18,8 +18,7 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_delete"
-        />
+        app:srcCompat="@android:drawable/ic_menu_delete" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -29,8 +28,7 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -40,8 +38,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar">
 
         <Button
             android:id="@+id/button_fragment_1"
@@ -49,8 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_weight="1"
-            android:text="@string/fragment_1"
-            />
+            android:text="@string/fragment_1" />
 
         <Button
             android:id="@+id/button_fragment_2"
@@ -59,8 +55,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_weight="1"
-            android:text="@string/fragment_2"
-            />
+            android:text="@string/fragment_2" />
     </LinearLayout>
 
     <FrameLayout
@@ -74,7 +69,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

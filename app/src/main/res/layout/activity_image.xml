@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/android"
-    tools:context=".image.ImageActivity"
-    >
+    tools:context=".image.ImageActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,8 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/android_black"
-        />
+        app:srcCompat="@drawable/android_black" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -40,6 +38,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.031"
-        app:srcCompat="@drawable/android_black"
-        />
+        app:srcCompat="@drawable/android_black" />
 </androidx.constraintlayout.widget.ConstraintLayout>
