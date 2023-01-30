@@ -16,9 +16,9 @@ import android.widget.Toast;
 
 import com.itproger.itprogerapp.R;
 
-public class MainContactsActivity
+public class ContactsActivity
         extends AppCompatActivity
-        implements GestureDetector.OnGestureListener, GestureDetector.OnDoubleTapListener{
+        implements GestureDetector.OnGestureListener, GestureDetector.OnDoubleTapListener {
 
     private String[] namesArray = new String[] {
             "Joan",
@@ -36,12 +36,12 @@ public class MainContactsActivity
             "Alex"
     };
     private ListView listView;
-    private GestureDetectorCompat gestureDetectorCompat;
+    private GestureDetectorCompat gestureDetectorCompat; //for activation implements
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_contacts);
+        setContentView(R.layout.activity_contacts);
 
         listView = findViewById(R.id.list_view);
 
@@ -57,7 +57,7 @@ public class MainContactsActivity
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(
-                        MainContactsActivity.this,
+                        ContactsActivity.this,
                         (String)listView.getItemAtPosition(position),
                         Toast.LENGTH_LONG).show();
             }
@@ -75,7 +75,7 @@ public class MainContactsActivity
     }
 
     public void goHome(View view) {
-        Intent intent = new Intent(this, MainAccountActivity.class);
+        Intent intent = new Intent(this, AccountActivity.class);
         startActivity(intent);
     }
 

@@ -16,14 +16,14 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainAccountActivity extends AppCompatActivity {
+public class AccountActivity extends AppCompatActivity {
 
     private EditText userNameField, userBioField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_account_app);
+        setContentView(R.layout.activity_account_app);
 
         userNameField = findViewById(R.id.user_name_field);
         userBioField = findViewById(R.id.user_bio_field);
@@ -67,7 +67,7 @@ public class MainAccountActivity extends AppCompatActivity {
     }
 
     public void goContacts(View view) {
-        Intent intent = new Intent(this, MainContactsActivity.class);
+        Intent intent = new Intent(this, ContactsActivity.class);
         startActivity(intent);
     }
 }

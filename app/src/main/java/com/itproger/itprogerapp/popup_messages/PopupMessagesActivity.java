@@ -14,12 +14,12 @@ import android.widget.Toast;
 
 import com.itproger.itprogerapp.R;
 
-public class MainPopupMessagesActivity extends AppCompatActivity {
+public class PopupMessagesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_popup_messages);
+        setContentView(R.layout.activity_popup_messages);
 
         TextView mainText = findViewById(R.id.mainText);
         Button buttonSecond = findViewById(R.id.bth_second);
@@ -38,7 +38,7 @@ public class MainPopupMessagesActivity extends AppCompatActivity {
     }
 
     private void showInfoAlert(String text) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainPopupMessagesActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(PopupMessagesActivity.this);
         builder.setTitle("Big hint")
                 .setMessage(text)
                 .setCancelable(false)

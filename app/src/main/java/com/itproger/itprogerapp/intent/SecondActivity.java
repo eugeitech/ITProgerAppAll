@@ -17,7 +17,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void goBack(View view) {
-        Intent intent = new Intent(this, MainFirstActivity.class);
+        Intent intent = new Intent(this, FirstActivity.class);
         startActivity(intent);
     }
 }

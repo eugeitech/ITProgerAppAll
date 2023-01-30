@@ -8,12 +8,12 @@ import android.view.View;
 
 import com.itproger.itprogerapp.R;
 
-public class MainFirstActivity extends AppCompatActivity {
+public class FirstActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_first);
+        setContentView(R.layout.activity_first);
     }
 
     public void startNewActivity(View view) {
