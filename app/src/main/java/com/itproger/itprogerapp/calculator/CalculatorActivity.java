@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.itproger.itprogerapp.R;
 
-public class MainCalculatorActivity extends AppCompatActivity {
+public class CalculatorActivity extends AppCompatActivity {
 
     private TextView resultTextView;
     private EditText numberField1;
@@ -20,7 +20,7 @@ public class MainCalculatorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_calculator);
+        setContentView(R.layout.activity_calculator);
 
         resultTextView = findViewById(R.id.resultTextView);
         numberField1 = findViewById(R.id.number_field_1);

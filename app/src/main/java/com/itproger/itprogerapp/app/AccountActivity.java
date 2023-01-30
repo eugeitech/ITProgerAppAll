@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -16,17 +17,26 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainAccountActivity extends AppCompatActivity {
+public class AccountActivity extends AppCompatActivity {
 
     private EditText userNameField, userBioField;
+    private Button blog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_account_app);
+        setContentView(R.layout.activity_account);
 
         userNameField = findViewById(R.id.user_name_field);
         userBioField = findViewById(R.id.user_bio_field);
+        blog = findViewById(R.id.blog);
+
+        blog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goWeb(v);
+            }
+        });
     }
 
     public void saveDate(View view) {
@@ -67,7 +77,12 @@ public class MainAccountActivity extends AppCompatActivity {
     }
 
     public void goContacts(View view) {
-        Intent intent = new Intent(this, MainContactsActivity.class);
+        Intent intent = new Intent(this, ContactsActivity.class);
+        startActivity(intent);
+    }
+
+    public void goWeb(View view) {
+        Intent intent = new Intent(this, WebActivity.class);
         startActivity(intent);
     }
 }

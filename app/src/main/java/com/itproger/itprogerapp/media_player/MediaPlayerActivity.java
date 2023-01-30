@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 import com.itproger.itprogerapp.R;
 
-public class MainMediaPlayerActivity extends AppCompatActivity {
+public class MediaPlayerActivity extends AppCompatActivity {
 
     private ImageButton carImage, policeImage;
     private MediaPlayer carSound, policeSound;
@@ -17,7 +17,7 @@ public class MainMediaPlayerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_media_player);
+        setContentView(R.layout.activity_media_player);
 
         carImage = findViewById(R.id.car_image);
         policeImage = findViewById(R.id.police_image);

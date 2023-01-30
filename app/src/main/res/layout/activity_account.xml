@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/silver_100"
-    tools:context=".app.MainAccountActivity" >
+    tools:context=".app.AccountActivity">
 
     <RelativeLayout
         android:id="@+id/upper_background"
@@ -84,7 +85,8 @@
         android:layout_marginStart="50dp"
         android:backgroundTint="@color/bright_blue_300"
         android:onClick="saveDate"
-        android:text="@string/save" />
+        android:text="@string/save"
+        />
 
     <Button
         android:layout_width="wrap_content"
@@ -101,8 +103,7 @@
         android:layout_height="50dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:background="@color/bright_blue_200"
-        >
+        android:background="@color/bright_blue_200">
 
         <Button
             android:layout_width="wrap_content"
@@ -120,12 +121,11 @@
             android:text="@string/contacts" />
 
         <Button
+            android:id="@+id/blog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:text="@string/blog"
-            android:backgroundTint="@color/bright_blue_300">
-        </Button>
+            android:backgroundTint="@color/bright_blue_300"
+            android:text="@string/blog" />
     </LinearLayout>
 </RelativeLayout>
-
